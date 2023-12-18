@@ -4,34 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
-// actions
-export const INCREMENT = 'INCREMENT';
-export const DECREMENT = 'DECREMENT';
-
-const counterReducer = (state = 0, action) => {
-  switch (action.type) {
-    case INCREMENT:
-      return state + 1
-    case DECREMENT:
-      return state - 1
-    default:
-      return state
-  }
-}
-
-export const incAction = () => {
-  return {
-    type: INCREMENT
-  }
-
-};
-export const decAction = () => {
-  return {
-    type: DECREMENT
-  }
-};
-export const store = createStore(counterReducer);
+import store from './reduxtank/store';  // Import the Redux store
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
