@@ -1,5 +1,5 @@
 import React from 'react'
-import { FirstWordStyle, SecondWordStyle, TitleStyle, WelcomeWrapper } from '../WelcomeComponent/Welcome.styled'
+import { FirstWordStyle, SecondWordStyle, WelcomeWrapper } from '../WelcomeComponent/Welcome.styled'
 import { TextWrapper, TitleStyleAboutMe } from './AboutMe.styled'
 
 const AboutMe = () => {

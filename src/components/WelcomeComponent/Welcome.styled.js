@@ -66,3 +66,6 @@ justify-content: space-between;
 position: relative;
 
 `
+export const AppWrapper = styled.div`
+ background-color: ${(props) => props.theme.body};
+ `

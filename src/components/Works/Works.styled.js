@@ -8,17 +8,18 @@ margin-top: 130px;
 background-image: url('/images/doodleWorks.png'); 
 backround-repeat: repeat;
 padding: 268px 96px;
+justify-content: center;
 `
 export const ProjectCard = styled.div`
 border-radius: 16px;
 background: rgba(57, 62, 70, 0.50);
 display: flex;
-width: 368px;
-height: 280px;
 padding: 61px 52px 61px 51px;
 justify-content: center;
 align-items: center
 backdrop-filter: blur(2px);
+width: 170px;
+height: 170px;
 `
 export const TagsWrapper = styled.div`
 display: flex;

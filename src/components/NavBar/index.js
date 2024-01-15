@@ -3,12 +3,12 @@ import Navigation from '../Navigation'
 import { LogoStyle, NavBarWrapper } from './Navbar.styled'
 
 
-const NavBar = () => {
+const NavBar = ({ toggleTheme }) => {
     return (
         <NavBarWrapper>
             <LogoStyle>Portfolio</LogoStyle>
             <div>
-                <Navigation />
+                <Navigation toggleTheme={toggleTheme} />
             </div>
         </NavBarWrapper>
     )

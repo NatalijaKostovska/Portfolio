@@ -16,9 +16,9 @@ const Works = () => {
                         <Tag>tag1</Tag>
                     </TagsWrapper>
                     <ProductsCards>
-                        <ProjectCard>project1</ProjectCard>
-                        <ProjectCard>project1</ProjectCard>
-                        <ProjectCard>project1</ProjectCard>
+                        <ProjectCard />
+                        <ProjectCard />
+                        <ProjectCard />
                     </ProductsCards>
                 </div>
             </div>
